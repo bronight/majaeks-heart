@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+/*.navbar {
+    background-color: black;
+}*/
+
+.icon {
+    height: 110px;
+    background: url("/src/Icon-Background.png");
+}
+
+.navbar {
+    height: 110px;
+    background: url("/src/Icon-Background.png");
+}
+
+.site-footer {
+    height: 200px;
+    background: url("/src/Icon-Background.png");
+}
