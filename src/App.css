@@ -14,11 +14,17 @@
 }
 
 .navbar {
-    height: 110px;
-    background: url("/src/Icon-Background.png");
+    height: 80px;
+    background-color: black;
+    /*background: url("/src/Icon-Background.png");*/
 }
 
 .site-footer {
-    height: 200px;
-    background: url("/src/Icon-Background.png");
+    height: 240px;
+    background-color: black;
+    /*background: url("/src/Icon-Background.png");*/
+}
+
+.boardMember {
+    width: 18rem;
 }
