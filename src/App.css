@@ -14,17 +14,66 @@
 }
 
 .navbar {
-    height: 80px;
-    background-color: black;
+    height: 124px;
+    /*background: url("/src/Majaeks-Background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /*background-color: black;*/
     /*background: url("/src/Icon-Background.png");*/
+    background-image: url("/src/Navbar-Background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .site-footer {
-    height: 240px;
+    height: 300px;
+    /*background: url("/src/Majaeks-Background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;*/
     background-color: black;
     /*background: url("/src/Icon-Background.png");*/
 }
 
+.site-header {
+    background-color: black;
+}
+
 .boardMember {
-    width: 18rem;
+    width: 20rem;
+    margin-top: 40px;
+}
+
+.boardMemberQuote {
+    font-size: smaller;
+}
+
+.mission {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(212, 213, 215, 0.5);
+    font-weight: 400;
+    padding: 10px;
+}
+
+/* Centered text for "Stay Informed" */
+.centeredInformed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright {
+    font-size: smaller;
 }
