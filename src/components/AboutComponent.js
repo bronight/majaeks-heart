@@ -1,6 +1,7 @@
 import React from 'react';
-import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import BoardMembers from './BoardMembersComponent';
 
 function About(props) {
     return(
@@ -58,68 +59,21 @@ function About(props) {
                 </section>
                 <div className="text-center"><h1>Our Board Members</h1></div>
                 <section className="row my-2">
-                    <div className="col-2"></div>
-                    <div className="col-3 mt-2">
-                        <div className="card shadow p-3 mb-5 my-4 bg-white rounded boardMember">
-                            <img src="assets/images/woman.jpg" class="card-img-top" alt="woman" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    I, Genine Suggs, am the President and Founder of Majaek's Heart Association. Majaek's Heart received its name from my six children, five which I birthed...<br /> 
-                                    <Link to="/about/genine-suggs" className="pt-0 pl-0 ml-0">Learn more...</Link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-2"></div>
-                    <div className="col-3 mt-2">
-                        <div className="card shadow p-3 mb-5 my-4 bg-white rounded boardMember">
-                            <img src="assets/images/woman.jpg" class="card-img-top" alt="woman2" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Vanessa Texidor Pringle is a Registered Nurse in a long-term acute care hospital in
-                                    northeastern Pennsylvania. She has been in the healthcare field since 2006.<br /> 
-                                    <Link to="/about/vanessa-texidor-pringle" className="pt-0 pl-0 ml-0">Learn more...</Link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="row">
-                    <div className="col-2"></div>
-                    <div className="col-3">
-                        <div className="card shadow p-3 mb-5 my-4 bg-white rounded boardMember">
-                            <img src="assets/images/woman.jpg" class="card-img-top" alt="woman2" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Roseann Blake is a Registered Nurse in Northeast Pennsylvania. Roseann’s mother was a battered wife with little education and 2 young children.<br />  
-                                    <Link to="/about/roseann-blake" className="pt-0 pl-0 ml-0">Learn more...</Link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-2"></div>
-                    <div className="col-3">
-                        <div className="card shadow p-3 mb-5 my-4 bg-white rounded boardMember">
-                            <img src="assets/images/woman.jpg" class="card-img-top" alt="woman2" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Vanessa Texidor Pringle is a Registered Nurse in a long-term acute care hospital in
-                                    northeastern Pennsylvania. She has been in the healthcare field since 2006. 
-                                    <button className="btn btn-link pt-0 pl-0 ml-0" role="link" value="4">Learn more...</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <BoardMembers />
                 </section>
                 <section className="row mt-4 mb-5">
                     <div className="mission">
                         <img src="/assets/images/mother.jpg" alt="Image of a mother" className="img-fluid" styles="background-size: 'cover'" />
                         <div className="centeredInformed">
                             <h1>Stay Informed</h1>
-                                <p>
-                                <label for="updates"><i class="bi bi-envelope"></i></label>
-                                <input type="email" id="updates" placeholder="Sign up for updates" />
-                            </p>
+                            <form action="#">
+                                <div className="input-container">
+                                    {/* <i class="fa fa-envelope icon"></i> */}
+                                    <input className="input-field" type="email" id="updates" placeholder="Sign up for updates" />
+                                    {/* <button type="btn btn-lg"><i class="fa fa-envelope icon"></i></button> */}
+                                    <Button><i class="fa fa-envelope"></i></Button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </section>

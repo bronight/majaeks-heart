@@ -21,10 +21,10 @@ class Header extends Component {
     render() {
         return(
             <React.Fragment>
-                <main className="bg-light">
+                <main>
                 <header className="container">
-                    <Navbar dark sticky="top" expand="md">
-                        <NavbarBrand className="mr-auto" href="/home"><img src="assets/images/MH-Icon-small.jpg" alt="Majaek's Heart Logo" /></NavbarBrand>
+                    <Navbar className="navbar-expand-lg" dark sticky="top" expand="md">
+                        <NavbarBrand className="mr-auto" href="/home"><img src="assets/images/MH-Icon-25.png" alt="Majaek's Heart Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} data-toggle="collapse" data-target="#expandMenu" aria-controls="#expandMenu" aria-label="Toggle Navigation" />
                         <Collapse isOpen={this.state.isNavOpen} navbar id="expandMenu">
                             <Nav navbar className="ml-auto mr-5">

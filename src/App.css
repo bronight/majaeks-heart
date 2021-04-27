@@ -4,6 +4,10 @@
     padding: 20px;
 }
 
+main {
+    background-color: black;
+}
+
 /*.navbar {
     background-color: black;
 }*/
@@ -14,20 +18,20 @@
 }
 
 .navbar {
-    height: 124px;
+    height: 120px;
     /*background: url("/src/Majaeks-Background.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;*/
     /*background-color: black;*/
     /*background: url("/src/Icon-Background.png");*/
-    background-image: url("/src/Navbar-Background4.jpg");
+    /* background-image: url("/src/Navbar-Background4.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .site-footer {
-    height: 300px;
+    height: 350px;
     /*background: url("/src/Majaeks-Background.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -76,4 +80,127 @@
 
 .copyright {
     font-size: smaller;
+    color:rgba(212, 213, 215, 0.5);
+}
+
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+/* Style the form icons */
+.icon {
+/* padding-top: 30%;
+margin: 0 0 0 0;
+border: 0px;
+background: rgb(255, 131, 30);
+color: white;
+min-width: 50px;
+height: 50px;
+text-align: center; */
+background: rgb(255, 131, 30);
+color: white;
+}
+
+/* Style the input fields */
+.input-field {
+width: 100%;
+padding: 10px;
+outline: none;
+}
+
+.input-field:focus {
+border: 2px solid dodgerblue;
+}
+
+.member-card {
+    min-width: 20%;
+    width: 256px;
+    height: 550px;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-bottom: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    border-radius: 0.5rem 0.5rem 0 0;
+    object-fit: cover;
+}
+
+.card-img-top ~ * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.section-home {
+    margin: 30px 0;
+}
+
+/* home/ donate
+================================= */
+.donate {
+    margin: 30px 0;
+}
+  
+.donate-col {
+    height: 325px;
+    padding: 25px;
+    text-align: center;
+    background-color: #2B7ABF;
+    /* background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -moz-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
+    background-image: -webkit-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
+    background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%); */
+    background-size: 100%;
+    color: #fff;
+}
+
+.donate-col .col-icon-wrapper {
+    min-height: 70px;
+}
+
+.donate-col .col-title {
+    text-transform: uppercase;
+}
+
+.donate-col .col-details {
+    text-align: justify;
+    margin-bottom: 25px;
+    min-height: 80px;
+}
+
+/* home/ upcoming events
+================================= */
+.events {
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+.events .images {
+    text-align: center;
+}
+
+/* .events .title {
+    background-color: black;
+    color: white;
+} */
+
+.title-style-1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.title-under {
+    display: block;
+    margin: 5px auto;
+    background: #1f76bd;
+    height: 1px;
+    width: 280px;
 }

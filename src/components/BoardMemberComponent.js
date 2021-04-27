@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import boardData from './board-data';
 
-function BoardMember({detail}) {
+function BoardMember({match}) {
+    const detail = boardData.filter(member => member.name === match.params.name);
 
     return(
         <section className="container">
@@ -11,21 +13,21 @@ function BoardMember({detail}) {
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem><Link to="/about">About Us</Link></BreadcrumbItem>
-                        <BreadcrumbItem active>{detail.name}</BreadcrumbItem>
+                        <BreadcrumbItem active>{detail[0].name}</BreadcrumbItem>
                     </Breadcrumb>
-                    <h1>{detail.name}</h1>
+                    <h1>{detail[0].name}</h1>
                     <hr />
                 </div>
             </div>
             <div className="row my-4">
                 <div className="col-1"></div>
                 <div className="col-7">
-                    <p>{detail.bio}</p>
+                    <p>{detail[0].bio}</p>
                 </div>
                 <div className="col-3 text-center">
-                    <p>{detail.bioImage}</p>
+                    <p>{detail[0].bioImage}</p>
                     <p className="boardMemberQuote">
-                        {detail.bioQuote}
+                        {detail[0].bioQuote}
                     </p>
                 </div>
                 <div className="col-1"></div>
