@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import Home from './HomeComponent';
-import About from './AboutComponent';
+import Home from '../pages/HomePage';
+import AboutUs from '../pages/AboutUsPage';
 import BoardMember from './BoardMemberComponent';
-import ContactUs from './ContactUsComponent';
+import ContactUs from '../pages/ContactUsPage';
 import HomePage from '../homepage.component';
 import BoardMembers from './BoardMembersComponent';
 
@@ -49,8 +49,8 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route exact path='/home' component={Home} />
-                    <Route exact path='/about' component={About} />
-                    <Route exact path='/about/:name' component={BoardMember} />
+                    <Route exact path='/aboutus' component={AboutUs} />
+                    <Route exact path='/aboutus/:name' component={BoardMember} />
                     <Route exact path='/contactus' component={ContactUs} />
                     <Redirect to='/home' />
                 </Switch>

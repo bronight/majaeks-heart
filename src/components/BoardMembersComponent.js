@@ -11,7 +11,7 @@ function BoardMembers() {
     return (
         <CardDeck className="ml-1 mt-4 mb-4">
             {boardMembers.map((member, key) => (
-                <Link key={key} to={`/about/${member.name}`} className="pt-0 pl-0 ml-0 text-decoration-none">
+                <Link key={key} to={`/aboutus/${member.name}`} className="pt-0 pl-0 ml-0 text-decoration-none">
                     <Card className="member-card">
                         <CardImg className="card-img-top" top width="100%" src={member.bioCardImage} alt={member.name} />
                         <CardBody>

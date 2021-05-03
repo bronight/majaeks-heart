@@ -1,7 +1,7 @@
 import React from 'react';
-import HomeCarousel from './HomeCarouselComponent';
-import HomeDonations from './HomeDonationsComponent';
-import UpcomingEvents from './HomeEventsComponent';
+import HomeCarousel from '../components/HomeCarouselComponent';
+import HomeDonations from '../components/HomeDonationsComponent';
+import UpcomingEvents from '../components/HomeEventsComponent';
 
 function Home(props) {
     return(

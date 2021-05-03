@@ -1,9 +1,9 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import BoardMembers from './BoardMembersComponent';
+import BoardMembers from '../components/BoardMembersComponent';
 
-function About(props) {
+function AboutUs(props) {
     return(
         <main className="bg-light">
             <div className="container">
@@ -31,7 +31,7 @@ function About(props) {
                 </section>
                 <section className="row mt-4">
                     <div className="mission">
-                        <img src="/assets/images/wanderer2.jpg" alt="Homeless Man Image" className="img-fluid" styles="background-size: 'cover'" />
+                        <img src="/assets/images/wanderer2.jpg" alt="Homeless Man" className="img-fluid" styles="background-size: 'cover'" />
                         <div className="centered">
                             <h1>Our Mission</h1>
                                 <p>
@@ -46,7 +46,7 @@ function About(props) {
                 </section>
                 <section className="row mt-4 mb-4">
                     <div className="mission">
-                        <img src="/assets/images/food_bank3.jpg" alt="Food Bank Image" className="img-fluid" styles="background-size: 'cover'" />
+                        <img src="/assets/images/food_bank3.jpg" alt="Food Bank" className="img-fluid" styles="background-size: 'cover'" />
                         <div className="centered">
                             <h1>Our Vision</h1>
                                 <p>
@@ -63,7 +63,7 @@ function About(props) {
                 </section>
                 <section className="row mt-4 mb-5">
                     <div className="mission">
-                        <img src="/assets/images/mother.jpg" alt="Image of a mother" className="img-fluid" styles="background-size: 'cover'" />
+                        <img src="/assets/images/mother.jpg" alt="A mother" className="img-fluid" styles="background-size: 'cover'" />
                         <div className="centeredInformed">
                             <h1>Stay Informed</h1>
                             <form action="#">
@@ -82,4 +82,4 @@ function About(props) {
     );
 }
 
-export default About;
+export default AboutUs;

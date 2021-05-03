@@ -30,6 +30,14 @@ main {
     background-repeat: no-repeat; */
 }
 
+.link {
+    color: #FFF;
+}
+
+.link:hover {
+    color: #00F
+}
+
 .site-footer {
     height: 350px;
     /*background: url("/src/Majaeks-Background.jpg");

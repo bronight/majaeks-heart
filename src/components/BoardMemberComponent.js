@@ -12,7 +12,7 @@ function BoardMember({match}) {
                 <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                        <BreadcrumbItem><Link to="/about">About Us</Link></BreadcrumbItem>
+                        <BreadcrumbItem><Link to="/aboutus">About Us</Link></BreadcrumbItem>
                         <BreadcrumbItem active>{detail[0].name}</BreadcrumbItem>
                     </Breadcrumb>
                     <h1>{detail[0].name}</h1>
