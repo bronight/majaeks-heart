@@ -12,9 +12,9 @@ function HomeDonations() {
                             </div>
                             <h3 class="col-title">Donate Time</h3>
                             <div class="col-details">
-                                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+                                <p>As much as we would love to see your beautiful faces while you share your time and/or services with us, the pandemic has pushed that back until further notice. See you soon.</p>
                             </div>
-                            <a href="#" class="btn btn-primary"> Find out more </a>
+                            {/* <a href="#" class="btn btn-primary"> Find out more </a> */}
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">

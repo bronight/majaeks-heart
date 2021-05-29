@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import boardData from './board-data';
@@ -17,6 +17,7 @@ function BoardMember({match}) {
                     </Breadcrumb>
                     <h1>{detail[0].name}</h1>
                     <hr />
+                    <h5>{detail[0].title}</h5>
                 </div>
             </div>
             <div className="row my-4">

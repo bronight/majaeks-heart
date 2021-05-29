@@ -7,14 +7,14 @@ function HomeCarousel(props) {
             <div className="row">
                 <div className='col'>
                 <Carousel>
-                    <Carousel.Item style={{'height': "300px"}}>
+                    <Carousel.Item style={{'height': "500px"}}>
                         <img 
                             className="d-block w-100"
                             src={"/assets/images/food_bank.jpg"}
                             alt="Food Bank"
                         />
                         <Carousel.Caption>
-                            <h1>Help the Hungry</h1>
+                            <h1 class="carousel-caption">Help the Hungry</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
@@ -24,7 +24,7 @@ function HomeCarousel(props) {
                             alt="Homeless Man"
                         />
                         <Carousel.Caption>
-                            <h1>Help the Homeless</h1>
+                            <h1 class="carousel-caption">Help the Homeless</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
@@ -34,7 +34,7 @@ function HomeCarousel(props) {
                             alt="Prison Bars"
                         />
                         <Carousel.Caption>
-                            <h1>Help Incarcerated Mothers</h1>
+                            <h1 class="carousel-caption">Help Incarcerated Mothers</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
@@ -44,7 +44,7 @@ function HomeCarousel(props) {
                             alt="Distressed Neighborhood"
                         />
                         <Carousel.Caption>
-                            <h1>Help the Poor</h1>
+                            <h1 class="carousel-caption">Help the Poor</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
@@ -54,7 +54,7 @@ function HomeCarousel(props) {
                             alt="Crying Woman"
                         />
                         <Carousel.Caption>
-                            <h1>Help Victims of Abuse</h1>
+                            <h1 class="carousel-caption">Help Victims of Abuse</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

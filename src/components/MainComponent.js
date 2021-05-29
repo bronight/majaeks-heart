@@ -6,8 +6,9 @@ import Home from '../pages/HomePage';
 import AboutUs from '../pages/AboutUsPage';
 import BoardMember from './BoardMemberComponent';
 import ContactUs from '../pages/ContactUsPage';
-import HomePage from '../homepage.component';
-import BoardMembers from './BoardMembersComponent';
+import BookDrive from './BookDriveComponent';
+// import HomePage from '../homepage.component';
+// import BoardMembers from './BoardMembersComponent';
 
 // const BoardMemberDetail = ({match}) => {
 //     const details = [
@@ -52,6 +53,7 @@ class Main extends Component {
                     <Route exact path='/aboutus' component={AboutUs} />
                     <Route exact path='/aboutus/:name' component={BoardMember} />
                     <Route exact path='/contactus' component={ContactUs} />
+                    <Route exact path='/bookdrive' component={BookDrive} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

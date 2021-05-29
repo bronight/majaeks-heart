@@ -1,7 +1,8 @@
 import React from 'react';
-import { Breadcrumb, BreadcrumbItem, Button } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import BoardMembers from '../components/BoardMembersComponent';
+import StayInformedForm from '../components/StayInformedComponent';
 
 function AboutUs(props) {
     return(
@@ -66,14 +67,7 @@ function AboutUs(props) {
                         <img src="/assets/images/mother.jpg" alt="A mother" className="img-fluid" styles="background-size: 'cover'" />
                         <div className="centeredInformed">
                             <h1>Stay Informed</h1>
-                            <form action="#">
-                                <div className="input-container">
-                                    {/* <i class="fa fa-envelope icon"></i> */}
-                                    <input className="input-field" type="email" id="updates" placeholder="Sign up for updates" />
-                                    {/* <button type="btn btn-lg"><i class="fa fa-envelope icon"></i></button> */}
-                                    <Button><i class="fa fa-envelope"></i></Button>
-                                </div>
-                            </form>
+                            <StayInformedForm />
                         </div>
                     </div>
                 </section>
