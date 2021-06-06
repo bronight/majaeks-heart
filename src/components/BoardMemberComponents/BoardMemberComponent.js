@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import boardData from './board-data';
+import boardData from '../BoardMemberComponents/board-data';
 
 function BoardMember({match}) {
     const detail = boardData.filter(member => member.name === match.params.name);

@@ -1,9 +1,9 @@
 import React from 'react';
-import HomeCarousel from '../components/HomeCarouselComponent';
-import HomeDonations from '../components/HomeDonationsComponent';
-import UpcomingEvents from '../components/HomeEventsComponent';
-import StayInformedForm from '../components/StayInformedComponent';
-
+import HomeCarousel from '../../components/HomeComponents/HomeCarouselComponent';
+import HomeDonations from '../../components/HomeComponents/HomeDonationsComponent';
+import UpcomingEvents from '../../components/HomeEventsComponent';
+import StayInformedForm from '../../components/StayInformedComponent';
+import './Home.css'
 function Home(props) {
     return(
         <div className="container">
