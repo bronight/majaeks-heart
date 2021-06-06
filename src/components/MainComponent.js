@@ -2,10 +2,18 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
+<<<<<<< HEAD
 import Home from '../pages/Home/HomePage';
 import AboutUs from '../pages/AboutUs/AboutUsPage';
 import BoardMember from './BoardMemberComponents/BoardMemberComponent';
 import ContactUs from '../pages/ContactUs/ContactUsPage';
+=======
+import Home from '../pages/HomePage';
+import AboutUs from '../pages/AboutUsPage';
+import BoardMember from './BoardMemberComponent';
+import ContactUs from '../pages/ContactUsPage';
+import FoodBank from '../pages/FoodBankPage';
+>>>>>>> 0546c1c99a8654ec80bdb2857ff97583908d1c37
 import BookDrive from './BookDriveComponent';
 // import HomePage from '../homepage.component';
 // import BoardMembers from './BoardMembersComponent';
@@ -54,6 +62,7 @@ class Main extends Component {
                     <Route exact path='/aboutus/:name' component={BoardMember} />
                     <Route exact path='/contactus' component={ContactUs} />
                     <Route exact path='/bookdrive' component={BookDrive} />
+                    <Route exact path='/foodbank' component={FoodBank} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HomeDonations() {
     return (
@@ -26,7 +27,7 @@ function HomeDonations() {
                             <div class="col-details">
                                 <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
                             </div>
-                            <a href="#" class="btn btn-primary"> Find out where </a>
+                            <Link to="/foodbank" className="btn btn-primary"> Find out where </Link>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
