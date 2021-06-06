@@ -6,6 +6,7 @@ import Home from '../pages/HomePage';
 import AboutUs from '../pages/AboutUsPage';
 import BoardMember from './BoardMemberComponent';
 import ContactUs from '../pages/ContactUsPage';
+import FoodBank from '../pages/FoodBankPage';
 import BookDrive from './BookDriveComponent';
 // import HomePage from '../homepage.component';
 // import BoardMembers from './BoardMembersComponent';
@@ -54,6 +55,7 @@ class Main extends Component {
                     <Route exact path='/aboutus/:name' component={BoardMember} />
                     <Route exact path='/contactus' component={ContactUs} />
                     <Route exact path='/bookdrive' component={BookDrive} />
+                    <Route exact path='/foodbank' component={FoodBank} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
