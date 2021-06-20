@@ -6,7 +6,7 @@ const boardMembers = [
         bio: "I, Genine Suggs, am the President and Founder of Majaek's Heart Association. Majaek's Heart received its name from my six children, five which I birthed and the sixth child who came into my life later on and imprinted her heart on to mine. Their names are Maiya, Akil, Jose, Ananda, Elayme and Khalil. I am currently an LTACH Nurse working in a local hospital, however, I became a nurse in 2011 and was a CNA prior to that since 2000. I always extend my love for others by way of financial, emotional, spiritual, and physical support. I wanted to start a nonprofit organization because of the events that took place in my life. I was homeless, lived in shelters for several years, and didn’t have enough education to earn enough money to make ends meet. So I do know the struggle that life brings you. However, if you look at life as the head and you are the neck, you can turn the neck anywhere you want, which will determine how you want your life to turn out. Because I know I had the will to do better and the want to do better, I knew there were others just like me that I could help who were in similar situations as I was. Although I have always extended my love to others, I know that I could not have gotten this far without my husband Ernest, my children (Majaek's Heart) and my Board Members: Kenya, Rosie, and Vanessa. Together we will uphold and make Majaek’s Heart a committed nonprofit organization that is dedicated to helping no income, low income, and homeless families of Pennsylvania. We are a committee of all nurses working together with one goal in mind; to assist our community in any way possible with items necessary for daily living. That is my goal and lifelong plan as well as Majaek's Heart mission statement.",
         bioCardImage: "/assets/images/Genine_card.jpg",
         bioImage: <img src="/assets/images/Genine_bio.jpg" alt="Genine Suggs" />,
-        bioQuote: "'“The question isn’t who is going to let me; it’s who is going to stop me.” —Ayn Rand'"
+        bioQuote: "'“Never ever mistake her silence for weakness. Remember that sometimes the air stills before the onset of a hurricane” —Nikita Gill'"
     },
     {
         id: "vanessa-texidor-pringle",
@@ -24,7 +24,7 @@ const boardMembers = [
         bio: "Roseann Blake is a Registered Nurse in Northeast Pennsylvania. Roseann’s mother was a battered wife with little education and 2 young children. In 1978 her mother entered the battered women shelter in NYC. Roseann remembers moving from state to state with no rhyme or reason and by the age of 14 she had lived in 7 states I in 5 years. In hindsight Roseann realized that the multiple moves her mother made was to escape the abusive husband who continued to follow her. Roseann’s mother encouraged her to be independent. Roseann received her GED in 1989 after the birth of her son. Became an Emergency Medical Technician and worked for 15 years.  Roseann moved to Northeast PA and returned to school to become an RN-BSN. Roseann always wanted to help the women from the battered women shelter but like most people was never able to find the time. May 2019 Roseann was forced to retire due to physical impairments that left her unable to fulfill her duties as Director of Nursing in a nursing home. Genine Suggs LPN, a coworker and longtime friend approached Roseann to become the treasurer for Majaek’s Heart a non-profit organization geared to helping the low to no income families in our area. Roseann has found purpose in giving back to these families and the Domestic Violence Organizations in Northeast PA.",
         bioCardImage: "/assets/images/Rosie_card.jpg",
         bioImage: <img src="/assets/images/Rosie.jpg" alt="Roseann Blake" />,
-        bioQuote: ""
+        bioQuote: "'“Turn your words into wisdom.” —Oprah Winfrey'"
     },
     {
         id: "kenya-williamson",
@@ -33,7 +33,7 @@ const boardMembers = [
         bio: "It is my innate ability and spiritual conviction to give back that guides me. Whether its small acts of kindness in my job as a nurse such as gently wiping a tear from my patient’s eye when needed, or volunteering by preparing a meal for those that are hungry I am driven to serve.         As an educator for high school students I helped provide academic and emotional support in the inner city. At Baruch College, I assisted in establishing a health center for students who did not have access to health care. Additionally, I established a peer health mentoring program to foster the sense of giving. It is an honor to be the Committee Director. I am grateful to continue this mission of service and work the Majaek’s Heart team to have a positive impact on the community.",
         bioCardImage: "/assets/images/Kenya_card.jpg",
         bioImage: <img src="/assets/images/Kenya_card.jpg" alt="Kenya" />,
-        bioQuote: ""
+        bioQuote: "''"
     }
 ];
 
