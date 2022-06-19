@@ -9,32 +9,38 @@ function HomeCarousel(props) {
                 <Carousel>
                     <Carousel.Item style={{'height': "500px"}}>
                         <img 
-                            className="d-block w-100"
-                            src={"/assets/images/food_bank.jpg"}
-                            alt="Food Bank"
+                            className="rounded mx-auto d-block w-75"
+                            src={"/assets/images/MajaeksheartCookie.JPG"}
+                            alt="Majaeks Heart Cookie"
                         />
                         <Carousel.Caption>
                             <h1 class="carousel-caption">Help the Hungry</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{'height': "500px"}}>
+                    <Carousel.Item style={{'height': "850px"}}>
                         <img 
                             className="d-block w-100"
-                            src="/assets/images/homeless-man-833017_1920.jpg"
-                            alt="Homeless Man"
+                            src="/assets/images/awardGenine2021.JPG"
+                            alt="Significant Achievement Trophy"
                         />
-                        <Carousel.Caption>
-                            <h1 class="carousel-caption">Help the Homeless</h1>
+                        <Carousel.Caption >
+                        <div class="carousel-caption d-none d-md-block">
+    <h4>Congratulations to Genine Suggs!</h4>
+    <p >Genine Suggs has been presented a trophy to signify her substantial contribution to the community through the Majaeks heart organization.</p>
+  </div>
+                            <h1 class="carousel-caption"style={{'color': 'black'}}></h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
                         <img 
                             className="d-block w-100"
-                            src="/assets/images/prison-553836_1920.jpg"
-                            alt="Prison Bars"
+                            src="/assets/images/galaCake2021.JPG"
+                            alt="Gala Cake"
                         />
                         <Carousel.Caption>
-                            <h1 class="carousel-caption">Help Incarcerated Mothers</h1>
+                        <h4>1st Annual Majaeks Heart Gala 2021</h4>
+    <p > First Annual Gala In Celebration of the success of the Majaeks Heart organization over the past year</p>
+  
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{'height': "500px"}}>
